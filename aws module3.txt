@@ -1,0 +1,62 @@
+Scaling Amazon EC2
+Auto-scaling enables you to automatically add or remove Amazon EC2 instances in response to changing application demand. You can use two approaches:
+
+Dynamic Scaling: Responds to changing demand.
+Predictive Scaling: Automatically schedules the right number of EC2 instances based on predicted demand.
+2. Elastic Load Balancing (ELB): Is the service that automatically distributes incoming application traffic across multiple resources, such as EC2 instances.
+
+3. Messaging and Queuing: To help maintain application availability when a single component fails, you can design your application through a microservice approach. Two different services that facilitate application integration: Amazon Simple Notification Service (SNS) and Amazon Simple Queue Service (SQS).
+
+Amazon Simple Notification Service (SNS): Is a publish/subscribe service. Using Amazon SNS topics, a publisher publishes messages to subscribers. In SNS subscribers can be web servers, email addresses, AWS lambda functions, or several other options.
+Amazon Simple Queue Service (SQS): Is a message queuing service. You can send, store and receive messages between software components, without losing messages or requiring other services to be available. A user or service retrieves a message from the queue, processes it, and deletes it from the queue.
+4. AWS Lambda: Is a service that lets you run code without needing to provision or manage servers. You pay only for the compute time that you consume.
+
+Auto-scalable
+Runs up to 14 min 59 secs.
+5. Amazon Elastic Container Service (ECS): Is a highly scalable, high-performance container management system that enables you to run and scale containerized applications on AWS.
+
+6. Amazon Elastic Kubernetes Service (EKS): Is a full managed service that you can use to run Kubernetes on AWS.
+
+7. AWS Fargate: Is a serverless compute engine for containers. It works with both Amazon ECS and Amazon EKS. Fargate manages your servers infrastructure for you.
+
+8. Amazon Lightsail: Designed to be the easiest way to launch and manage a virtual private server. Lightsail include everything you need to jumpstart your project — a virtual machine, SDD-based storage, data transfer, DNS management, and static IP address — for a low, predictable price.
+
+9. AWS Batch: Dynamically provisions the optimal quantity and type of compute resources based on the volume and specific resource requirements of the batch jobs submitted. AWS Batch plans, schedules, and executes your batch computing workloads across the full range of AWS compute services and features, such as Amazon EC2 and Spot Instances.
+
+10. AWS Elastic Beanstalk: An easy-to-use service for deploying and scaling web applications and services developed with java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Ngnix, Passenger, and AWS Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, and auto-scaling to application health monitoring.
+
+11. AWS Serverless Application Repository: Enables you to quickly deploy code samples components, and complete applications for common use cases such as web and mobile back-ends, event and data processing, logging, monitoring, IoT and also to publish your applications and share them within your team, across your organization, or with the community. There is no additional charge to use the serverless Application repo, you only pay for the AWS resources used in the app you deploy.
+
+12. ASW Outposts: Bring native AWS services, infrastructure, and operating models to virtually and data-centres, co-location space, or on-premises facilities. You can use the same API’s, the same tools, the same hardware, and the same functionality across on-premises and the cloud to deliver a truly consistent hybrid experience.
+
+13. VMWare Cloud on AWS.
+
+Thirdly couple architecture: When applications communicate directly.
+Loosely coupled architecture: Single Failure won’t cause cascading failures.
+
+
+Module 3: Global Infrastructure and Reliability
+When determining the right region for your service, data, and applications, consider the following four business factors:
+
+Compliance with data governance and legal requirements.
+Proximity to your customers.
+Available services within a Region.
+Pricing.
+**Availability Zones:** is a single data centre or a group of data centres within a region.
+
+Edge Locations: Is a site that Amazon-CloudFront uses to store cached copies of your content to your customer for faster delivery.
+How to Provision AWS Resources:
+1. AWS Management Console.
+
+2. AWS Command Line Interface (CLI).
+
+3. Software Development Kits (SDK’s).
+
+4. AWS Elastic Beanstalk, you provide code and configuration settings, and Elastic Beanstalk deploys the resources necessary to perform the following tasks:
+— Adjust Capacity
+— Load Balancing
+— Automatic Scaling
+— Application Health Monitoring
+
+5. AWS Cloud Formation: you can treat your infrastructure as code, AWS Cloud Formation provisions you resources in a safe, repeatable manner, enabling you to frequently build your infrastructure and applications without having to perform manual actions or write custom scripts, it determines the right operations to perform when managing your stack and rolls back changes automatically if it detects errors.
+

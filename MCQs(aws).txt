@@ -1,0 +1,441 @@
+1. What is Cloud Computing?
+Cloud computing provides access to IT resources such as computing power, applications, and storage to users as per their demands. Here, users do not need to maintain their physical resources on their premises. In cloud computing, you can pay only for the resources you have used, so there are no investment costs. This service provides greater flexibility and scaling on resources according to your changing workloads.
+
+
+
+2. What are the featured services of AWS?
+The Key Components of AWS are:  
+
+Elastic compute cloud( EC2): It acts as an on-demand computing resource for hosting applications. EC2 is very helpful in times of uncertain workloads. 
+Route 53: It’s a DNS web service.
+Simple Storage Device S3: It is a widely used storage device service in AWS Identity and Access Management.
+Elastic Block Store: It allows you to store constant volumes of data which is integrated with EC2 and enables you to data persist. 
+Cloud watch: It allows you to watch the critical areas of the AWS with which you can even set a reminder for troubleshooting.
+Simple Email Service: It allows you to send emails with the help of regular SMTP or by using a restful API call.
+| Explore AWS Tutorial here
+
+3. What are the top product categories of AWS?
+The top product categories of AWS are:
+
+Compute
+Storage
+Database
+Networking and Content Delivery
+Analytics
+Machine Learning
+Security
+Identity
+Compliance
+4. What is a Data lake?
+It is a centralized data repository to store all your structured and unstructured data at any volume. The core aspect of Data lake is that you can apply various analytical tools to data, derive analytics, and uncover useful insights without structuring the data. Also, Data lake stores data coming from various sources such as business applications, mobile applications, and IoT devices.
+
+ 
+
+
+5. What is Serverless Computing? 
+AWS offers a serverless computing facility to run codes and manage data and applications without managing servers. Serverless computing eliminates infrastructure management tasks like capacity provisioning, patching, etc. It reduces the operating costs significantly. As this technology scales in response to the demands for resources automatically, it ensures quick service to users.
+
+6. What is Amazon EC2? 
+Amazon EC2 is known as Amazon Elastic Cloud Computing Platform. It provides a robust computing platform to handle any workload with the latest processors, storage, Operating Systems, and networking capabilities. It simplifies the computing process for developers. And this service reduces time by allowing quick scaling as per the requirements.
+
+
+7. What is Amazon EC2 Auto Scaling?
+This AWS service automatically adds or removes EC2 instances as per the changing demands in workloads. Also, this service detects the unhealthy EC2 instances in the cloud infrastructure and replaces them with new instances, consequently. In this service, scaling is achieved in dynamic scaling and Predictive scaling. They can be used separately as well as together to manage the workloads. 
+
+8. What is fleet management in Amazon EC2 Auto Scaling?
+Amazon EC2 auto-scaling service continuously monitors the health of Amazon EC2 instances and other applications. When EC2 auto-scaling identifies unhealthy instances, it automatically replaces the unhealthy EC2 instances with new EC2 instances. Also, this service ensures the seamless running of applications and balances EC2 instances across the zones in the cloud.
+
+
+9. What is Amazon S3?
+Amazon S3 is known as Amazon Simple Storage Service, which allows storing any volume of data and retrieving data at any time. It reduces costs significantly, eliminating the requirement for investments. Amazon S3 offers effective scalability, data availability, data protection, and performance. Using this service, you can uncover insights from the stored data by analyzing it with various analytical tools such as Big Data analytics, Machine Learning, and Artificial Intelligence.
+
+10. What is Amazon CloudFront?
+Amazon CloudFront is known as the Content Delivery Network (CDN) service. This service provides high security and performance and is a developer-friendly tool. Amazon CloudFront uses a global network with 310+ Points of Presence (PoPs) across the globe, which helps to reduce latency effectively. And this service uses automated mapping and intelligent routing mechanisms to reduce latency. Amazon CloudFront secures data by applying traffic encryption and controlling access to data.
+
+11. What is Amazon VPC?
+Amazon VPC is known as Amazon Virtual Private Cloud (VPC), allowing you to control your virtual private cloud. Using this service, you can design your VPC right from resource placement and connectivity to security. And you can add Amazon EC2 instances and Amazon Relational Database Service (RDS) instances according to your needs. Also, you can define the communication between other VPCs, regions, and availability zones in the cloud.
+
+
+
+12. What is Amazon SQS?
+Amazon Simple Queuing Service (SQS) is a fully managed message queuing service. Using this service, you can send, receive and store any quantity of messages between the applications. This service helps to reduce complexity and eliminate administrative overhead. In addition to that, it provides high protection to messages through the encryption method and delivers them to destinations without losing any message.
+
+13. What are the two types of queues in SQS?
+There are two types of queues known
+
+Standard Queues: It is a default queue type. It provides an unlimited number of transactions per second and at least one message delivery option. 
+
+FIFO Queues: FIFO queues are designed to ensure that the order of messages is received and sent is strictly preserved as in the exact order that they sent.
+
+14. What is Amazon DynamoDB?
+Amazon DynamoDB is a fully managed, serverless, key-value No SQL database service. This service has many essential features such as built-in security, in-memory caching, continuous back-ups, data export tools, and automated multi-region replication. Mainly, you can run high-performance applications at any scale using this service. For instance, it extensively supports internet-scale applications that require high concurrency and connections for many users with millions of requests per second.
+
+
+15. What is Amazon S3 Glacier?
+It is a storage class built for data archiving, which helps retrieve data with high flexibility and performance. So, data can be accessed faster in milliseconds, and S3 Glacier offers a low-cost service. There are three S3 glacier storage classes – Glacier instant retrieval storage, S3 Glacier flexible retrieval, and S3 Glacier deep archive.
+
+16. What is Amazon Redshift?
+Amazon Redshift helps analyze data stored in data warehouses, databases, and data lakes using Machine Learning (ML) and AWS-designed hardware. It uses SQL to analyze structured and semi-structured data to yield the best performance from the analysis. This service automatically creates, trains, and deploys Machine Learning models to create predictive insights.
+
+
+
+17.  What are Elastic Load Balancing (ELB) and its types?
+Elastic Load Balancing (ELB) automatically directs incoming application traffic to various destinations and virtual appliances. In fact, the destinations and virtual appliances may be in one or more availability zones. In this service, you can secure your applications using tools such as integrated certificate management, SSL/TLS decryption methods, and user authentication.
+
+There are three types of load balancers such as Application Load Balancer, Gateway Load Balancer, and Network Load Balancer.
+
+18. What are sticky sessions in ELB?
+A sticky session is also known as session affinity. During sticky sessions, load balancers connect a user's session with a specific target. So, all the user's requests during that session will be directed to the same target. It will provide a continuous experience to users. Here, the cookie AWSELB is used to define the sticky session duration to the instance.
+
+19. What is AWS Elastic Beanstalk?
+This AWS service helps deploy and manage applications in the cloud quickly and easily. Here, developers need to upload the codes; after that, Elastic Beanstalk will manage other requirements automatically. Simply put, Elastic Beanstalk manages right from capacity provisioning, auto-scaling, load balancing up to application health monitoring.
+
+20. What are the benefits of AWS Elastic Beanstalk?
+In a way, it is faster and simpler to deploy applications
+
+The auto-scaling facility of Elastic Beanstalk supports to scale applications up and down based on the demands.
+
+This AWS service manages application platforms by updating with the latest patches and updates.
+
+When they use this service, developers could achieve enough freedom to choose the type of EC2 instance, processors, etc.
+ 
+
+Benefits of the Elastic beanstalk
+
+Following are the few benefits of the Elastic Beanstalk:
+
+Easy and simple: Elastic Beanstalk enables you to manage and deploy the application easily and quickly.
+
+Autoscaling: Beanstalk scales up or down automatically when your application traffic increases or decreases.
+
+Developer productivity: Developers can easily deploy the application without any knowledge, but they need to maintain the application securely and be user-friendly.
+
+Cost-effective: No charge for Beanstalk. Charges are applied for the AWS service resources which you are using for your application.
+
+Customization: Elastic Beanstalk allows users to select the configurations of AWS services that users want to use for application development.
+
+Management and updates: It updates the application automatically when it changes the platform. Platform updates and infrastructure management are taken care of by AWS professionals.
+21. What is Amazon CloudWatch?
+Amazon CloudWatch is a monitoring service that would help IT professionals, extensively by providing actionable insights. The tool provides complete visibility on AWS resources and applications running on AWS and on-premises. In addition, it tracks the status of applications, which would help to apply suitable response actions and optimize the performance of applications.
+
+22.  What is AWS Snowball?
+AWS Snowball is an edge computing and storage service. There are two features available in this service: Snowball edge storage optimized devices and Snowball edge computes optimized devices. The snowball storage devices offer block storage and Amazon S3 object storage. Snowball edge computing devices provide 52 vCPUs and an optional GPU, and it is suitable for handling advanced Machine Learning and full-motion video analysis.  
+
+Classic Load Balancer: Classic load balancer is designed to make routing decisions either at the application layer or transport layer. It requires a fixed relationship between the container instance port and the load balancer port.
+
+23. What is AWS CloudTrail?
+This AWS service monitors user activities on AWS infrastructure and records their activities. And this service identifies suspicious activities on AWS resources through CloudTrail insights and Amazon EventBridge features. So, you can get reasonable control over your resources and response activities. In addition to that, it analyses the log files with Amazon Athena. 
+
+24. What is Amazon ElastiCache?
+It is an in-memory caching service. It acts as a data store that can be used as a database, cache, message broker, and queue. This caching service accelerates the performance of applications and databases. For instance, you can access data in microseconds using this caching service. Not only that, it helps to reduce the load on the backend database.
+
+25.  What is AWS Lambda?
+It is a serverless and event-driven computing service. It allows running codes virtually for applications without any provisioning or managing servers. Most AWS services and SaaS applications can trigger AWS Lambda. This service can execute any code volume due to its scaling properties. Also, decoupled services can be communicated through the event-driven functions of AWS Lambda.
+
+26.  What is Amazon Lightsail?
+Amazon Lightsail is a service that helps to build and manage websites and applications faster and with ease. It provides easy-to-use virtual private server instances, storage, and databases cost-effectively. Not just that, you can create and delete development sandboxes using this service, which will help to test new ideas without taking any risk.
+
+27. What is Amazon ECS?
+It is known as Amazon Elastic Container Registry (ECR). It provides high-performance hosting so that you can store your application images securely in ECR. Amazon ECS compresses and encrypts images and controls access to images. The images can be simply stored in containers; also, they can be accessed from the containers without the support of any management tools.
+
+28. What is Amazon EFS?
+Amazon EFS is a simple and serverless Elastic File System. It allows adding or removing files on the file system without provisioning and management. This service creates file systems using EC2 launch instance wizard, EFS Console, CLI, and API. You can reduce costs significantly since accessed files will be moved automatically over a period.
+
+29. What is the AWS Snow Family?
+AWS Snow family allows transferring data in and out of the cloud using physical devices very simply. It doesn’t require the need for networks. AWS Snow Family helps transfer a large volume of data such as cloud migration, data center relocation, disaster recovery, and remote data collection projects. With the help of this service, many AWS services can be used to analyze, archive, and file data.
+
+30. What is AWS Elastic Disaster Recovery?
+This AWS service reduces application downtime on a greater scale by quickly recovering applications both on-premises and on the cloud if there is an application failure. It needs minimal computing power and storage and achieves point-in-time recovery. It helps recover applications within a few minutes in the same state when they failed. Mainly, it reduces recovery costs considerably, unlike the typical recovery methods.
+
+31. What is Amazon Aurora, and mention its features?
+Amazon Aurora is the MySQL and PostgreSQL relational database. It performs similar-like traditional databases and has simplicity and cost-effectiveness of open source databases. Amazon Aurora is fully managed by Amazon RDS and automates the processes, such as hardware provisioning, database setup, back-ups, and patching. Also, it has a self-healing storage system that can scale up to 128 TB per database instance.
+
+32. What is Amazon RDS?
+Amazon RDS is known as Relational Database Service that allows easy setup, operation, and scaling of relational databases in the cloud. And it automates administrative tasks such as provisioning, database setup, and back-ups. Amazon RDS offers six familiar database engines, such as Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, and SQL server.
+
+33. What is Amazon Neptune?
+It is a purpose-built graph database that helps execute queries with easy navigation on datasets. Here, you can use graph query languages to execute queries, which will perform effectively on connected datasets. Moreover, Amazon Neptune’s graph database engine can store billions of relationships and query the graph with milliseconds latency. This service is mainly used in fraud detection, knowledge graphs, and network security.
+
+34. What is Amazon Route 53?
+It is the highly scalable Cloud Domain Name System (DNS) web service. It connects users to AWS infrastructures such as Amazon EC2 instances, Elastic load balancing, and Amazon S3 buckets. It connects users outside of AWS infrastructure as well. Using this service, you can configure DNS health checks and monitor applications continuously for their ability to recover from failures. Amazon Route 53 can work alongside Amazon IAM, thereby controlling the access to DNS data.
+
+35. What is AWS Shield?
+AWS Shield is the service that protects against DDoS (Distributed Denial of Service) attacks on AWS applications. There are two types of AWS Shields: AWS Shield Standard and AWS Shield Advanced. AWS Shield Standard supports to protect applications from common and frequently occurring DDoS attacks. At the same time, AWS Shield advanced offers higher level protection for the applications running on Amazon EC2, ELB, Amazon CloudFront, AWS Global Accelerator, and Route 53.
+
+36. What is Amazon Network Firewall?
+This AWS service helps to protect VPCs (Virtual Private Cloud) against attacks. In this service, scaling is carried out automatically as per the traffic flow in the network. You can define your firewall rules using Network Firewall's flexible rules engine; therefore, you can get reasonable control over the network traffic. Network Firewall can work alongside AWS firewall manager to build and apply security policies on all VPCs and accounts.
+
+37. What is Amazon EBS?
+It is known as Amazon Elastic Block Store, and it is a high-performance block storage service. And it is designed to support Amazon EC2 instances. Amazon EBS could scale quicker with respect to the workload demands of high-level applications such as SAP, Oracle, and Microsoft products. Using this service, you can resize the clusters by attaching and detaching storage volumes; therefore, it can be analyzed by big data analytics engines such as Hadoop and Spark.
+
+38. What is Amazon Sagemaker? 
+It is a managed AWS service, which builds, trains, and deploys Machine Learning models. It consists of the needed infrastructure, tools, and workflow to support any use case. You could manage a large volume of structured as well as unstructured data using this service; as a result, you can build ML models quickly.
+
+Visit here to learn AWS Training in Hyderabad
+
+39.  What is Amazon EMR? 
+Amazon EMR is nothing but it is a cloud Big Data platform. This AWS service helps run large-scale distributed data processing tasks, Machine Learning applications, and interactive SQL queries. Also, you can run and scale big data workloads using open-source frameworks such as Apache Spark, Hive, and Presto. Amazon EMR uncovers hidden patterns, correlations, and market trends through large-scale data processing.
+
+40. What is Amazon Kinesis?  
+This AWS service collects, processes, and analyses real-time streaming data and generates useful insights. Here, the real-time data will be video, audio, application logs, IoT telemetry data, and website clickstreams. And you can take the right actions at the right time based on these insights. Especially, data is processed and analyzed once received rather than waiting for the arrival of the whole data.
+
+41. What are the Snow family members? 
+AWS Snowcone
+AWS Snowball
+AWS Snowmobile
+ 
+42.  What are the attacks that AWS Shield can prevent?
+AWS Shield protects websites from the following DDoS attacks
+
+UDP floods
+TCP SYN floods
+HTTP GET and POST floods
+43. What do you mean by AMI? 
+AMI is nothing but Amazon Machine Images. It provides the necessary information to launch an instance. Please note that a single AMI can launch multiple instances with the same configuration, whereas different AMIs are required to launch instances with different configurations.
+
+
+44. What are the security practices followed in Amazon EC2? 
+Accounts are managed by two-factor authentication based on Amazon IAM
+User requests must be signed with access key ID along with secret access key
+Data security is ensured by setting up API and user activity logging with AWS CloudTrail.
+Customers are supposed to use transport-layer security 1.0 or later
+They have to use cipher suites with Perfect Forward Secrecy (PFS)
+45. What is Amazon EC2 root device volume? 
+The root device volume contains the image that will be used to boot an EC2 instance. It happens while Amazon AMI launches a new EC2 instance. And this root device volume is backed by either EBS or instance store. Generally, the root device data on Amazon EBS is independent of the lifetime of an EC2 instance.
+
+46. Define regions and availability zones in Amazon EC2?  
+Availability zones are the locations that are isolated distinctively. Therefore, failure in a particular zone wouldn’t affect the EC2 instances in other zones. As far as regions are considered, they may have one or more availability zones. This setup helps to reduce latency and costs as well.
+
+47. What are the various types of Amazon EC2 instances and their essential features?
+1. General Purpose Instances: They are used to compute various workloads and help to balance computing, memory, and networking resources.
+
+2. Compute Optimised Instances: They are suitable for compute-bound applications. They support computing batch processing workloads, high-performance web servers, machine learning inference, and many more.
+
+3. Memory Optimised: They process the workloads that handle large datasets in memory with quick delivery.
+
+4. Accelerated Computing: It helps execute floating-point number calculations, data pattern matching, and graphics processing. It uses hardware accelerators to perform these functions.
+
+5. Storage Optimised: They handle the workloads that demand sequential read and write access to large data sets on local storage.
+
+ 
+
+48. What are Throughput Optimised HDD and Cold HDD volume types?
+Throughput optimized HDDs are magnetic type storage that defines performance based on throughput. It is suitable for frequently accessed, large and sequential workloads.
+
+Cold HDD volumes are also magnetic-type storages where performance is calculated based on throughput. These storages are inexpensive and best suitable for infrequent sequential and large cold workloads.
+
+49. What are the benefits of EC2 Autoscaling?  
+It detects unhealthy EC2 instances in the cloud infrastructure and replaces them with new instances.
+
+It ensures whether applications have the right amount of computing power and provisions capacity based on predictive scaling.
+
+It provisions instances only when demanded, thereby optimizing cost and performance.
+ 
+Visit here to learn AWS Training in New York
+
+50. Explain the advantages of auto-scaling? 
+With the help of automation capabilities, Amazon EC2 auto-scaling predicts the demands of EC2 instances in advance. Here, the Machine Learning (ML) algorithms identify the variations in the demand patterns in regular intervals. It helps to add or remove EC2 instances in the cloud infrastructure proactively, which in turn increases the productivity of applications and reduces cost significantly.
+
+51. What are the uses of load balancers in Amazon Lightsail?
+Load balancers automatically route the web traffic to instances so that traffic variations will be managed effectively. As a result, seamless use of applications is ensured in this service.
+Using round-robin algorithms, it directs the web traffic only to healthy instances.
+Amazon Lightsail supports both HTTP and HTTPS connections
+It also makes integrated certificate management to provide free SSL/TLS certificates.
+52. What do you mean by the Amazon Lightsail instance plan?
+As per this plan, account holders will be provided with a Virtual Private Server, RAMs, CPUs, SSD-based storage, along with data transfer allowance. It also provides five static IP addresses and three domain zones of DNS management per account. This plan helps save costs significantly since customers need to pay on-demand.
+
+53. What are DNS records in Amazon Lightsail?
+Generally, DNS is a globally distributed service that supports connecting computers using IP addresses. DNS records in Amazon LightSail convert the human-readable domain names into public IP addresses of LightSail instances. When you type domain names in browsers, Amazon Lightsail translates the domain names into IP addresses of the instances you want to access.
+
+54. What is AWS Copilot CLI?
+AWS Copilot CLI is known as ‘Copilot Command-Line Interface’, which helps users deploy and manage containerized applications. Here, each step in the deployment lifecycle is automated; the steps include pushing to a registry, creating a task definition, and clustering. Therefore, it saves time for planning the necessary infrastructure to run applications.
+
+Learn AWS Training in Delhi  
+
+55. What are the differences between Amazon Beanstalk and Amazon ECS?
+Amazon Beanstalk deploys and scales web applications and services efficiently. Also, it carries out tasks such as provisioning of various features, deployment, and health monitoring of applications by reducing the burden of developers. Whereas Amazon ECS is a container management service that helps quickly deploy, manage, and scale containerized applications. And it also helps to achieve fine-grained control over the applications.
+
+56. What do you mean by the AWS Lambda function?
+AWS Lambda function is nothing but a code that we run on the AWS Lambda. Here, the code is uploaded as a lambda function. This Lambda will have configuration information such as name, description, entry point, and resource requirements. Basically, Lambda functions are stateless, and they include libraries also.
+
+57. Mention the differences between AWS Lambda and Amazon ECS?
+AWS Lambda is a serverless and event-driven computing service that helps run codes without provisioning or managing servers. At the same time, Amazon manages servers, unlike Amazon Lambda.
+
+AWS Lambda can support selective languages; on the other hand, ECS can support any language to run codes on containers.
+
+AWS Lambda will be helpful to run easy and quick functions, whereas ECS can be used to run any size of codes and complexity
+
+In AWS Lambda scaling can be carried out automatically; on the other hand, ECS container service requires managing servers and infrastructure according to the demands.
+      
+58. How does AWS Lambda achieve integrated security control? 
+AWS Lambda integrates with AWS IAM so that other AWS services can access Lambda functions securely. By default, AWS Lambda runs codes in Amazon VPC. So, AWS Lambda functions can be accessed only within VPC, securely. Also, you can configure a secured AWS Lambda resource access, by which you can leverage custom security groups and network access control lists. 
+
+59. What platform branches support the graviton instances on AWS Elastic Beanstalk?
+Docker running on 64-bit Amazon Linux 2
+Node.js 14 running on 64-bit Amazon Linux 2
+Node.js 12 running on 64-bit Amazon Linux 2
+Python 3.8 running on 64-bit Amazon Linux 2
+Python 3.7 running on 64-bit Amazon Linux 2
+ 
+60. What is the use of the ELB gateway load balancer endpoint?
+ELB gateway load balancer endpoints make private connectivity between the virtual appliances in the Virtual Private Cloud (VPC) and the application servers in the service consumer VPC.
+
+61. What are the different storage classes of Amazon S3?
+S3 Intelligent -Tiering
+S3 Standard
+S3 Standard-infrequent access (S3 Standard – A)
+S3 One Zone-infrequent access (S3 One Zone –IA)
+S3 Glacier instant retrieval
+S3 Glacier flexible retrieval
+S3 Glacier deep archive
+S3 Outposts
+62. What is EFS Intelligent -Tiering? 
+With the support of EFS lifecycle management, Amazon Elastic File System (EFS) monitors the access patterns in workloads. According to lifecycle policy, the inaccessed files are identified from performance-optimized storage classes and then moved to infrequent access cost-optimized storage classes saving costs significantly. If suppose, the access patterns change, and the inaccessed files are reaccessed, then EFS lifecycle management moves back the files to the performance-optimized storage classes again.
+  
+
+63. What do you mean by Amazon EBS snapshots?
+Amazon Elastic Block Store (EBS) snapshots are the point-in-time copy of data, which can be used for enabling disaster recovery, data migration, and backup compliance. This data protection system protects block storage such as EBS volumes, boot volumes, and on-premises block data.  
+
+64.  Mention the difference between Backup and Disaster Recovery
+Back up is the process of copying data locally or in a remote location. The data can be accessed whenever it is needed. For instance, if a file is damaged or lost, it can be accessed from backups.
+
+Disaster recovery helps regain applications, data, and other resources if there is an outage. It is the process of moving to the redundant servers and storage systems until the source applications and data are recovered. Simply put, it helps to continue business processes as quickly as possible, even if there is a failover in the IT resources.
+
+65. What is the function of DynamoDB Accelerator?
+The fully managed in-memory cache improves data accessing performance up to 10 times higher than usual. Also, it allows to access data within microseconds and manages millions of requests per second; and it helps to lower the operational costs.  
+
+66. How does Amazon ElastiCache function?
+It is the fully managed and in-memory cache that supports real-time use cases. It functions as a fast in-memory data store and acts as a database, cache, message broker, and queue. Moreover, this service will support real-time transactions, Business Intelligence tools, session stores, and gaming leaderboards.
+
+67. What is the connection between Amazon Neptune and RDS permissions?
+Amazon Neptune is a high-performance graph database engine. Amazon Neptune connects with technologies shared with Amazon RDS while managing instance lifecycle management, encryption-at-rest with Amazon KMS keys, and security group management.
+
+Learn AWS Online Training in Bangalore
+
+68.  How does Amazon CloudFront speed up content delivery?
+Speed in content delivery is achieved with the support of a global network infrastructure that consists of 300+ Points of Presence (PoPs). This global network optimizes content delivery through edge termination and WebSockets. Above all, content delivery is performed within milliseconds with built-in data compression, edge compute capabilities, and field-level encryption.
+
+69.  What do you mean by the latency-based routing feature of Amazon Route 53?
+This feature supports improving your application’s performance globally. Amazon Route 53 uses edge locations across the world, by which it routes end users to Amazon regions efficiently. In addition, you can run applications on various Amazon regions and Amazon route 53, so you can achieve effective routing with low latency.
+
+70.  How does AWS Network Firewall protect a VPC?
+AWS Network firewall’s stateful firewall prevents your Virtual Private Cloud (VPC) from unauthorized access via tracking connections and protocol identification. The intrusion prevention program of this service carries out active flow inspection to identify and block vulnerability through single-based detection. This service uses web filtering that will prevent known bad URLs.
+
+71.  Mention the difference between Stateful and Stateless Firewalls?
+With Stateful Firewalls, you can apply effective policy enforcement using complete network traffic details since it tracks all the aspects of a traffic flow. Stateful firewalls allow integrating encryption, packet states, TCP stages, and many more.
+On the other hand, stateless firewalls focus only on the individual data packets with pre-set rules, so it helps filter traffic. Stateless firewalls cannot identify the threats in the traffic apart from the content in the header of packets.
+
+72. Compare: RTO and RPO in AWS?
+RPO is the Recovery Point Objective of AWS Elastic Disaster Recovery, usually measured in the sub-second range. RPO indicates how much data loss or time you can afford after a disaster in the service.
+
+On the other hand, RTO is the Recovery Time Objective of AWS Elastic Disaster Recovery, usually measured in minutes. RTO is the recovery time taken by resources to return to their regular operations after a disaster in the service.
+
+73.  What do you mean by Provisioned IOPS, and how is it used?
+Provisioned IOPS represents the EBS volume type to deliver high performance for I/O intensive workloads. For example, database applications may leverage provisioned IOPS as they demand consistent and fast response times. Here, the volume size and volume performance will be specified for EBS volumes to provide consistent performance throughout the lifetime of the volume.
+
+74.  Distinguish between storage in EBS and storage in an instance store?
+An Instance store is temporary storage. The data stored in an instance store may be lost due to instance stops, terminations, and hardware failures.
+On the other hand, data in EBS storage would be kept for longer periods, and data may not be lost due to instance stops and terminations. You can back up this data with EBS Snapshots, attach it with another instance, and make full-volume encryption.
+
+
+AWS Interview Questions - Advanced Level
+75.  Distinguish between Spot Instance, On-demand Instance, and Reserved Instance?
+Spot instances are unused EC2 instances that customers can use at discount rates.
+
+We need to pay for the compute capacity without long-term commitments when you use on-demand instances.
+
+On the other hand, you can set attributes such as instance type, platform, tenancy, region, and availability zone using reserved instances. Reserved instances provide discounts significantly and offer capacity reservations when the instances in the specific availability zones are used.
+
+76.  What is the role of EFA in Amazon EC2 interfacing?
+Elastic Fabric Advisor (EFA) devices provide a new OS bypass hardware interface that can be interfaced with Amazon EC2 instances in order to boost High-Performance Computing (HPC). EFA also supports Machine Learning (ML) applications. And it provides consistent latency and higher throughput. Especially, it improves inter-instance communication, which is essential in HPC and ML applications.
+
+77.  What do you mean by ‘changing’ in Amazon EC2?
+In order to simplify the limit management experience of customers, Amazon EC2 provides the option to change the instance limits from the current ‘instance count-based limits’ to the new ‘vCPU Based limits’. So, the usage is measured in terms of the number of vCPUs when launching a combination of instance types based on demands.
+
+78.  What functions in Amazon Autoscaling automate fleet management of Amazon EC2?
+Monitors the health of the running EC2 instances in the cloud infrastructure
+
+Replaces malfunctioning EC2 instances with new instances
+
+Balances the capacity across various availability zones
+79.  What do you mean by Snapshots in Amazon Lightsail?
+Snapshots are the point-in-time backups of EC2 instances, block storage disks, and databases. They can be created at any time, either manually or automatically. Snapshots will restore your resources at any time, right from when they are created. And these resources will function as the original resource where the snapshots are taken.
+
+80.  What is the role of tags in Amazon Lightsail?
+Tags will be helpful when there are many resources of the same type. You can group and filter the resources in the Lightsail console or API based on the tags assigned to them.
+Tags help to track and allocate costs for various resources and users. Billing can be split based on ‘projects’ as well as ‘users’ with the help of ‘cost allocation tags’
+With the help of tags, you can manage your AWS resources by providing access control to users. So, users can manage data on the resources only within their limits.
+
+81.  What are lifecycle hooks in Amazon EC2 Auto Scaling?
+Lifecycle hooks help to take proactive actions before instances get terminated. For example, launch hooks allow configuring an instance before it is connected with load balancers by the Amazon Auto Scaling service. This is achieved by connecting Amazon Lambda with launch hooks. Similarly, terminate hooks collect important data from an instance before it gets terminated.
+
+82.  What do you mean by launch configuration in Amazon EC2 Auto Scaling?
+It is the template that Amazon EC2 Auto Scaling uses to launch EC2 instances. When you make a launch configuration, you need to specify information such as Amazon Machine Image (AMI), the instance type, security groups, a key pair, and block device mapping. Whenever an EC2 instance is launched, you must specify the launch configuration in detail.
+
+83.  What are the uses of Amazon’s Lightsail’s container services?
+It allows running containerized applications in the cloud
+Various applications right from web apps to multi-tiered microservices can be run on container services
+Container services will be run without bothering the underlying infrastructure since they will be taken care of by Amazon Lightsail.
+
+84.  How does Amazon ECS support Dynamic Port Mapping?
+If a dynamic port is specified during ECS task definition, then the container will be given by an unused port. It will occur when the container is scheduled on the EC2 instance. Then, the ECS scheduler will allocate tasks to Application Load Balancer’s target groups through this port automatically.
+
+85.  Why does the AWS Lambda function suppose to be stateless?
+When incoming events create a need for scaling, AWS lambda functions have to make many copies of functions to cope with the scaling. At that time, AWS functions have to be stateless; only then AWS lambda functions can create copies of functions. Also, it allows accessing stateful data from Amazon S3 and Amazon dynamoDB.
+
+86.  What do you mean by AWS Lambda Runtime Interface Emulator (RIE)?
+AWS Lambda RIE is a lightweight web server. It helps to convert HTTP requests to JSON events. Lambda RIE emulates runtime API and acts as the proxy for the Lambda runtime API. Also, Lambda RIE is open-sourced on runtime GitHub. And it helps to test the lambda functions using Curl and DOCKER CLI tools.
+
+87.  What are S3 Object Lambda and its uses?
+S3 Object Lambda allows modifying or processing data before it is returned to applications. The lambda functions can process data by filtering, masking, redacting, compressing, and many more. This is achieved with the support of S3 GET requests. You don’t need to create copies of codes in this feature, and you can run the codes on the infrastructure that is fully managed by AWS S3 and AWS Lambda. 
+
+88.  What do you mean by Amazon EFS Provisioned Throughput?
+This feature of Amazon EFS allows the file system’s throughput to be independent of the amount of data storage. Therefore, file system throughput is matched with the requirements of applications. This feature is mainly applied to applications that require high throughput to storage (MB/second per TB) ratio.
+
+89.  How does EBS manage the storage contention issues?
+Amazon EBS is a multi-tenant block storage service. The rate-limiting mechanism helps to resolve storage contention issues. It is achieved by fixing defined performance levels for all types of volumes in terms of IOPS and throughput. Here, metrics are used to track the performance of EBS instances and infrastructure to volumes. Alarms will indicate any deviation from the defined performance levels of instances and volumes from the expected ones. It will help allocate suitable EBS instances and infrastructure to the volumes.
+
+90.  How do Amazon Kinesis data streams function?
+Amazon Kinesis captures data from AWS services, microservices, Logs, and mobile apps and sensors, which can be of any quantity. Then, it easily streams the data to AWS Lambda, Amazon kinesis data analytics, and data firehose. And  Amazon kinesis builds data streaming applications using the mentioned AWS services, open-source framework, and custom applications.
+
+91.  How does data transfer occur in AWS Snowcone and AWS storage devices?
+Data is collected and processed at the source level after receiving it from sensors and other devices with the AWS Snowcone service. Then, the data is moved into AWS storage devices such as S3 buckets, either online or offline. And you can transfer data continuously to the AWS sources through Data sync options. Moreover, data is processed using Amazon EC2 instances, and then it is moved to AWS storage devices in the AWS Snowcone service.
+
+92.  How are AWS Elastic Disaster Recovery and Cloud Endure Disaster Recovery related?
+Generally, AWS Elastic Disaster Recovery is built on Cloud Endure Disaster Recovery; therefore, both services have similar capabilities. They help you to:
+
+Ease the setup, operation, and recovery processes for many applications
+Perform non-disruptive disaster recovery testing and drills
+Recover RPOs in seconds and TROs in minutes
+Recover from a previous point-in-time
+93.  How does Amazon VPC work with Amazon RDS?
+The Amazon EC2 instances, EC2-VPC and EC2- Classic, can host Amazon DB instances. Amazon VPC can launch Amazon DB instances into a virtual private cloud. It also helps to control the virtual networking environment. On the other hand, Amazon RDS manages backups, software patching, and automatic failure detection and recovery. You can save costs significantly when running your DB instances in an Amazon VPC.
+
+94.  How does Amazon Redshift perform workload isolation and changeability?
+The data in the ETL cluster is shared with isolated BI and analytics clusters in order to provide read workload isolation. It also allows making optional charges so that costs can be saved. Here, the analytic clusters can be arranged as per the price requirements. Also, it helps to onboard the new workloads very simply.
+
+95.  How is caching efficiency increased in Amazon ElastiCache?
+The in-memory caching provision of Amazon ElastiCache helps to reduce latency and throughput. Especially, high workload applications such as social networking, gaming, and media sharing use in-memory caching to improve data access efficiency. Moreover, critical data pieces can be stored in-memory, which will reduce latency significantly.
+
+96.  Compare Amazon VPC Traffic Mirroring and Amazon VPC Flow Logs?
+With Amazon VPC traffic mirroring, you can get actionable insights about network traffic, which will help you analyze the traffic content, payloads, the root cause for issues, and control data misuse.           
+On the other hand, Amazon VPC flow logs provide information about traffic acceptance and rejections, source and destination IP addresses, packet, and byte counts, and ports details. It helps to troubleshoot security and connectivity issues to optimize network performance.
+
+97.  Why is Amazon CloudFront considered DevOps friendly?
+CloudFront offers fast change propagation and invalidations, for instance, within two minutes.
+It provides a full-featured API by which CloudFront distributions can be created, configured, and maintained
+You can customize the CloudFront behaviors such as caching, communication, headers and metadata forwarded, compression modes, and many more.
+CloudFront can detect device types and forward this information to applications; as a result, content variants and other responses can be easily adapted by the applications.
+
+98.  What is the advantage of the Amazon Route 53 Resolver DNS Firewall over other AWS firewalls?
+By providing visibility and control for the entire VPC, Route 53 Resolver DNS firewall ensures the security of applications and networks on AWS. This DNS firewall can be used along with AWS Network Firewall, Amazon VPC security groups, AWS web application firewall rules, and AWS Marketplace appliances to ensure the security of networks and applications.
+
+99.  Mention the difference between Amazon Athena, Amazon Redshift, and Amazon EMR?
+Amazon Athena is a query service. It allows running ad-hoc queries for the data in Amazon S3 without the support of servers.
+Amazon Redshift is a data warehouse. It provides the fastest query performance for enterprise reporting and BI workloads.
+Amazon EMR is the data processing framework. It helps run distributed processing frameworks like Hadoop, Spark, and Presto.
+
+100. What are instance stopping and instance termination?
+When you stop an instance, all the operations of the instance are stopped at the moment it is stopped. However, its EBS volume will be connected with the instance so that it can be restarted at any time.
+On the other hand, you can no longer use that instance when you terminate an instance. After that, you cannot start or connect that instance as its EBS volume is also removed while terminating the instance.
+

@@ -1,0 +1,71 @@
+				Module 5:Storage and databases
+
+Instance Stores and Amazon Elastic Block Storage (EBS)
+An instance store provides temporary block-level storage for an EC2 instance. Is disk storage that is physically attached to the host computer with the following characteristics:
+— HDD options
+— Solid-state
+— Size up to 16 TiB
+2. Amazon Elastic Block Storage (EBS): provides block-level storage volumes that you can use with EC2 instances. Because EBS volumes are for data that needs to persist, it’s important to back up the data (snapshots).
+
+**EBS snapshot is an incremental backup
+
+3. Amazon Simple Storage Service (S3)
+
+When you modify a file in block storage, only the pieces that are changed are updated. When a file in object storage is modified, the entire object is updated
+
+Nine 9’s of durability
+
+S3 provides object-level storage, offers unlimited storage space, the maximum file size for an object is 5TB.
+
+* You can set permissions to control visibility and access to it.
+* You can also use the versioning feature to track changes to your objects over time.
+* With S3 you only pay for what you use, you can choose from a range of storage classes to select a fit, you will consider two factors: How often you plan to retrieve your data and How available you need your data to be.
+
+* S3 storage classes:
+a) S3 standard: provides high availability for objects, it has a higher cost
+— Designed for frequently accessed data.
+— Store data in a minimum of three Availability Zones.
+
+b) S3 Zone-Infrequent Access (Zone-IA): ideal for infrequently accessed but requires high availability when needed. The same level of availability as the S3 standard but with a lower storage price.
+— Ideal for infrequently accessed data.
+— Similar to the S3 standard but lower storage price and higher retrieval price.
+
+c) S3 One Zone-Infrequent Access (One Zone-IA)
+— Store data in a single availability zone.
+— Lower storage price than S3 Standard-IA.
+
+d) S3 Intelligent-Tiering:
+— Ideal for data with unknown or changing access patterns.
+— Requires a small monthly monitoring and automation fee per object.
+
+e) S3 Glacier:
+— Low-cost storage designed for data archiving.
+— Able to retrieve objects within a few minutes to hours.
+
+f) S3 Glacier Deep Archive:
+— Lowest-cost object storage class, ideal for archiving.
+— Able to retrieve objects within 12 hours.
+
+4. Amazon Elastic File System (EFS)
+
+File Storage, multiple clients can access data that is stored in shared file folders. In this approach, a storage server uses block storage with a local file system to organize files. Compared to block storage and object storage, file storage is ideal for use cases in which a large number of services and resources need to access the same data at the same time.
+Amazon EFS is a scalable file system used with AWS Cloud Services and On-premise resources.
+5. Amazon Relational Database Service (RDS)
+
+RDS enables you to run relational databases in the AWS Cloud Managed services that automate tasks such as:
+a) Hardware provisioning
+b) Database setup
+c) Patching
+d) Backups
+Database Engines:
+a) PostgreSQL
+b) MySQL
+c) Maria DB
+d) Oracle
+e) Microsoft SQL Server
+f) Amazon Aurora:
+— Compatible with MySQL and PostgreSQL.
+— Five times faster than MySQL and three times faster than PostgreSQL.
+— Reduce unnecessary I/O operations.
+— Replicates six copies of your data across three availability zones.
+— Continuously backs up your data.

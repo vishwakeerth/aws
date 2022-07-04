@@ -1,0 +1,213 @@
+1. What is a characteristic of Amazon S3 cross-region replication?
+A. Both source and destination S3 buckets must have versioning disabled
+B. The source and destination S3 buckets cannot be in different AWS Regions
+C. S3 buckets configured for cross-region replication can be owned by a single AWS account or by different accounts
+D. The source S3 bucket owner must have the source and destination AWS Regions disabled for their account
+
+Correct Answer:C
+
+2.What is a user responsible for when running an application in the AWS Cloud?
+A. Managing physical hardware
+B. Updating the underlying hypervisor
+C. Providing a list of users approved for data center access
+D. Managing application software updates
+
+Correct Answer: D
+
+3.Amazon Route 53 enables users to:
+A. encrypt data in transit
+B. register DNS domain names
+C. generate and manage SSL certificates
+D. establish a dedicated network connection to AWS
+
+Correct Answer:B
+
+4.Which AWS service is a managed NoSQL database?
+A. Amazon Redshift
+B. Amazon DynamoDB
+C. Amazon Aurora
+D. Amazon RDS for MariaDB
+
+Correct Answer:B
+
+5.Which AWS service should be used to create a billing alarm?
+A. AWS Trusted Advisor
+B. AWS CloudTrail
+C. Amazon CloudWatch
+D. Amazon QuickSight
+
+Correct Answer:C
+
+
+6.A company is hosting a web application in a Docker container on Amazon EC2.
+AWS is responsible for which of the following tasks?
+A. Scaling the web application and services developed with Docker
+B. Provisioning or scheduling containers to run on clusters and maintain their availability
+C. Performing hardware maintenance in the AWS facilities that run the AWS Cloud
+D. Managing the guest operating system, including updates and security patches
+
+Correct Answer:C
+
+7.Users are reporting latency when connecting to a website with a global customer base.
+Which AWS service will improve the customer experience by reducing latency?
+A. Amazon CloudFront
+B. AWS Direct Connect
+C. Amazon EC2 Auto Scaling
+D. AWS Transit Gateway
+
+Correct Answer:B
+
+8.Which AWS feature or service can be used to capture information about incoming and outgoing traffic in an AWS VPC infrastructure?
+A. AWS Config
+B. VPC Flow Logs
+C. AWS Trusted Advisor
+D. AWS CloudTrail
+
+Correct Answer:B
+
+9.A company wants to use an AWS service to monitor the health of application endpoints, with the ability to route traffic to healthy regional endpoints to improve application availability.
+Which service will support these requirements?
+A. Amazon Inspector
+B. Amazon CloudWatch
+C. AWS Global Accelerator
+D. Amazon CloudFront
+
+Correct Answer:C
+
+10.Which service can be used to monitor and receive alerts for AWS account root user AWS Management Console sign-in events?
+A. Amazon CloudWatch
+B. AWS Config
+C. AWS Trusted Advisor
+D. AWS IAM
+
+Correct Answer: A
+
+11.Which design principle should be considered when architecting in the AWS Cloud?
+A. Think of servers as non-disposable resources
+B. Use synchronous integration of services
+C. Design loosely coupled components
+D. Implement the least permissive rules for security groups
+
+Correct Answer:C
+
+12.Which AWS services can be used to move data from on-premises data centers to AWS? (Choose two.)
+A. AWS Snowball
+B. AWS Lambda
+C. Amazon ElastiCache
+D. AWS Database Migration Service (AWS DMS)
+E. Amazon API Gateway
+
+Correct Answer: A,D
+
+13.Each department within a company has its own independent AWS account and its own payment method.
+New company leadership wants to centralize departmental governance and consolidate payments.
+How can this be achieved using AWS services or features?
+A. Forward monthly invoices for each account. Then create IAM roles to allow cross-account access.
+B. Create a new AWS account. Then configure AWS Organizations and invite all existing accounts to join.
+C. Configure AWS Organizations in each of the existing accounts. Then link all accounts together.
+D. Use Cost Explorer to combine costs from all accounts. Then replicate IAM policies across accounts.
+
+Correct Answer:B
+
+14.The ability to horizontally scale Amazon EC2 instances based on demand is an example of which concept in the AWS Cloud value proposition?
+A. Economy of scale
+B. Elasticity
+C. High availability
+D. Agility
+
+Correct Answer: B
+
+15.An ecommerce company anticipates a huge increase in web traffic for two very popular upcoming shopping holidays.
+Which AWS service or feature can be configured to dynamically adjust resources to meet this change in demand?
+A. AWS CloudTrail
+B. Amazon EC2 Auto Scaling
+C. Amazon Forecast
+D. AWS Config
+
+Correct Answer: B
+
+16.Which tool is used to forecast AWS spending?
+A. AWS Trusted Advisor
+B. AWS Organizations
+C. Cost Explorer
+D. Amazon Inspector
+
+Correct Answer:C
+
+17.A company is running an ecommerce application hosted in Europe. To decrease latency for users who access the website from other parts of the world, the company would like to cache frequently accessed static content closer to the users.
+Which AWS service will support these requirements?
+A. Amazon ElastiCache
+B. Amazon CloudFront
+C. Amazon Elastic File System (Amazon EFS)
+D. Amazon Elastic Block Store (Amazon EBS)
+
+Correct Answer: B
+
+18.Which of the following is a component of the AWS Global Infrastructure?
+A. Amazon Alexa
+B. AWS Regions
+C. Amazon Lightsail
+D. AWS Organizations
+
+Correct Answer: B
+
+19.Which AWS service will help users determine if an application running on an Amazon EC2 instance has sufficient CPU capacity?
+A. Amazon CloudWatch
+B. AWS Config
+C. AWS CloudTrail
+D. Amazon Inspector
+
+Correct Answer: A
+
+20.An application runs on multiple Amazon EC2 instances that access a shared file system simultaneously.
+Which AWS storage service should be used?
+A. Amazon EBS
+B. Amazon EFS
+C. Amazon S3
+D. AWS Artifact
+
+Correct Answer: B
+
+21. A web application is hosted on AWS using an Elastic Load Balancer, multiple Amazon EC2 instances, and Amazon RDS.
+Which security measures fall under the responsibility of AWS? (Choose two.)
+A. Running a virus scan on EC2 instances
+B. Protecting against IP spoofing and packet sniffing
+C. Installing the latest security patches on the RDS instance
+D. Encrypting communication between the EC2 instances and the Elastic Load Balancer
+E. Configuring a security group and a network access control list (NACL) for EC2 instances
+
+Correct Answer: B,C
+
+22.The continual reduction of AWS Cloud pricing is due to:
+A. pay-as-you go pricing
+B. the AWS global infrastructure
+C. economies of scale
+D. reserved storage pricing
+
+Correct Answer: C
+
+23.A company needs an Amazon S3 bucket that cannot have any public objects due to compliance requirements.
+How can this be accomplished?
+A. Enable S3 Block Public Access from the AWS Management Console.
+B. Hold a team meeting to discuss the importance if only uploading private S3 objects.
+C. Require all S3 objects to be manually approved before uploading.
+D. Create a service to monitor all S3 uploads and remove any public uploads.
+
+Correct Answer:A
+
+24.A Cloud Practitioner identifies a billing issue after examining the AWS Cost and Usage report in the AWS Management Console.
+Which action can be taken to resolve this?
+A. Open a detailed case related to billing and submit it to AWS Support for help.
+B. Upload data describing the issue to a new object in a private Amazon S3 bucket.
+C. Create a pricing application and deploy it to a right-sized Amazon EC2 instance for more information.
+D. Proceed with creating a new dashboard in Amazon QuickSight.
+
+Correct Answer: A
+
+25.Who is responsible for patching the guest operating system for Amazon RDS?
+A. The AWS Product team
+B. The customer Database Administrator
+C. Managed partners
+D. AWS Support
+
+Correct Answer: A

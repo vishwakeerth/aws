@@ -1,0 +1,73 @@
+Amazon Elastic Compute Cloud (Amazon EC2)
+
+Amazon Elastic Compute Cloud (Amazon EC2) provides secure, resizable compute capacity in the cloud as Amazon EC2 instances.
+
+How Amazon EC2 works
+(1) Launch
+First, you launch an instance. Begin by selecting a template with basic configurations for your instance. These configurations include the operating system, application server, or applications. You also select the instance type, which is the specific hardware configuration of your instance.
+As you are preparing to launch an instance, you specify security settings to control the network traffic that can flow into and out of your instance. Later in this course, we will explore Amazon EC2 security features in greater detail.
+(2) Connect
+Next, connect to the instance. You can connect to the instance in several ways.
+Your programs and applications have multiple different methods to connect directly to the instance and exchange data.
+Users can also connect to the instance by logging in and accessing the computer desktop.
+(3) Use 
+After you have connected to the instance, you can begin using it. You can run commands to install software, add storage, copy and organize files, and more.
+
+Amazon EC2 instance types
+
+Amazon EC2 instance types are optimized for different tasks. 
+When selecting an instance type, consider the specific needs of your workloads and applications. 
+This might include requirements for compute, memory, or storage capabilities.
+
+General purpose instances provide a balance of compute, memory, and networking resources. You can use them for a variety of workloads, such as:
+ application servers 
+ gaming servers 
+ backend servers for enterprise applications 
+ small and medium databases
+
+Compute optimized instances are ideal for compute-bound applications that benefit from high-performance processors.
+Like general purpose instances, you can use compute optimized instances for workloads such as web, application, and gaming servers.
+
+Memory optimized instances are designed to deliver fast performance for workloads that process large datasets in memory.
+In computing, memory is a temporary storage area.
+It holds all the data and instructions that a central processing unit (CPU) needs to be able to complete actions.
+Before a computer program or application is able to run, it is loaded from storage into memory. 
+This preloading process gives the CPU direct access to the computer program.
+
+Accelerated computing instances use hardware accelerators, or coprocessors, to perform some functions more efficiently than is possible in software running on CPUs.
+Examples of these functions include floating-point number calculations, graphics processing, and data pattern matching.
+
+Storage optimized instances are designed for workloads that require high, sequential read and write access to large datasets on local storage.
+Examples of workloads suitable for storage optimized instances include distributed file systems, data warehousing applications, and high-frequency online transaction processing (OLTP) systems.
+
+Amazon EC2 pricing
+
+On-Demand Instances are ideal for short-term, irregular workloads that cannot be interrupted.
+No upfront costs or minimum contracts apply.
+The instances run continuously until you stop them, and you pay for only the compute time you use.
+
+Reserved Instances are a billing discount applied to the use of On-Demand Instances in your account, and these are suited for steady-state workloads or ones with predictable usage.
+You can purchase Standard Reserved and Convertible Reserved Instances for a 1-year or 3-year term, and Scheduled Reserved Instances for a 1-year term.
+
+Spot Instances are ideal for workloads with flexible start and end times, or that can withstand interruptions.
+They allow you to request spare Amazon EC2 computing capacity for up to 90% off of the On-Demand price.
+The catch here is that AWS can reclaim the instance at any time they need it, giving you a two-minute warning to finish up work and save state.
+
+Dedicated Hosts are physical servers with Amazon EC2 instance capacity that is fully dedicated to your use.
+These are usually for meeting certain compliance requirements and nobody else will share tenancy of that host.
+
+Scalability:
+
+Scalability involves beginning with only the resources you need and designing your
+architecture to automatically respond to changing demand by scaling out or in. As a result,
+you pay for only the resources you use. You don’t have to worry about a lack of computing
+capacity to meet your customers’ needs.
+Here is the on-premise data centre dilemma. If your business is like 99% of all businesses
+out in the world, your customer workloads vary over time: perhaps over a simple 24 hour
+period, or you might have seasons where you're busy, and weeks that are not in demand. If
+you're building out a data centre, the question is, what is the right amount of hardware to
+purchase? If you buy for the average amount, the average usage, you won't be wasting
+money on average. But when the peak loads come in, you won't have the hardware to
+service the customers, especially during the critical moments to expect to be making all your
+results. Now, if you buy for the top max load, you might have happy customers, but for most
+of the year, you'll have idle resources, which means your average utilization is very low.

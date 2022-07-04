@@ -1,0 +1,423 @@
+1.What is cloud computing?
+
+A.Backing up files that are stored on desktop and mobile devices to prevent data loss
+
+B.Deploying applications connected to on-premises infrastructure
+
+C.Running code without needing to manage or provision servers
+
+D.On-demand delivery of IT resources and applications through the internet with pay-as-you-go pricing
+
+ANSWER: D
+
+2.What is another name for on-premises deployment?
+
+A.Private cloud deployment
+
+B.Cloud-based application
+
+C.Hybrid deployment
+
+D.AWS Cloud
+
+ANSWER:A
+
+3.How does the scale of cloud computing help you to save costs?
+
+A.You do not have to invest in technology resources before using them.
+
+B.The aggregated cloud usage from a large number of customers results in lower pay-as-you-go prices.
+
+C.Accessing services on-demand helps to prevent excess or limited capacity.
+
+D.You can quickly deploy applications to customers and provide them with low latency.
+
+ANSWER:B
+
+4.How does the scale of cloud computing help you to save costs?
+
+A.You do not have to invest in technology resources before using them.
+
+B.The aggregated cloud usage from a large number of customers results in lower pay-as-you-go prices.
+
+C.Accessing services on-demand helps to prevent excess or limited capacity.
+
+D.You can quickly deploy applications to customers and provide them with low latency.
+
+ANSWER:B
+
+5.What are the contract length options for Amazon EC2 Reserved Instances? (Select TWO.)
+
+A.1 year
+
+B.2 years
+
+C.3 years
+
+D.4 years
+
+E.5 years
+
+ANSWER:A AND C
+
+6.You have a workload that will run for a total of 6 months and can withstand interruptions. What would be the most cost-efficient Amazon EC2 purchasing option?
+
+A.Reserved Instance
+
+B.Spot Instance
+
+C.Dedicated Instance
+
+D.On-Demand Instance
+
+ANSWER:B
+
+7.Which process is an example of Elastic Load Balancing?
+
+A.Ensuring that no single Amazon EC2 instance has to carry the full workload on its own
+
+B.Removing unneeded Amazon EC2 instances when demand is low
+
+C.Adding a second Amazon EC2 instance during an online store’s popular scale
+D.Automatically adjusting the number of Amazon EC2 instances to meet demand
+
+ANSWER:A
+
+8.You want to deploy and manage containerized applications. Which service should you use?
+
+A.AWS Lambda
+
+B.Amazon Simple Notification Service (Amazon SNS)
+
+,C.Amazon Simple Queue Service (Amazon SQS)
+
+D.Amazon Elastic Kubernetes Service (Amazon EKS)
+
+ANSWER:D
+
+9.Your company has an application that uses Amazon EC2 instances to run the customer-facing website and Amazon RDS database instances to store customers’ personal information. How should the developer configure the VPC according to best practices?
+
+A.Place the Amazon EC2 instances in a private subnet and the Amazon RDS database instances in a public subnet.
+B.Place the Amazon EC2 instances in a public subnet and the Amazon RDS database instances in a private subnet.
+C.Place the Amazon EC2 instances and the Amazon RDS database instances in a public subnet.
+D.Place the Amazon EC2 instances and the Amazon RDS database instances in a private subnet.
+
+ANSWER: B
+
+10.Which component or service can be used to establish a private dedicated connection between your company’s data center and AWS?
+
+A.Private subnet
+B.DNS
+C.AWS Direct Connect
+D.Amazon CloudFront
+
+ANSWER:C
+
+11.Which statement best describes security groups?
+
+A.They are stateful and deny all inbound traffic by default.
+
+B.They are stateful and allow all inbound traffic by default.
+
+C.They are stateless and deny all inbound traffic by default.
+
+D.They are stateless and allow all inbound traffic by default.
+
+ANSWER:A
+
+12.Which component is used to connect a VPC to the internet?
+
+A.Public subnet
+
+B.Edge location
+
+C.Security group
+
+D.Internet gateway
+
+ANSWER:D
+
+13.Which service is used to manage the DNS records for domain names?
+
+A.Amazon Virtual Private Cloud
+
+B.AWS Direct Connect
+
+C.Amazon CloudFront
+
+D.Amazon Route 53
+
+ANSWEWR:D
+
+14.Which Amazon S3 storage classes are optimized for archival data? (Select TWO.)
+
+A.S3 Standard
+
+B.S3 Glacier
+
+C.S3 Intelligent-Tiering
+
+D.S3 Standard-IA
+
+E.S3 Glacier Deep Archive
+
+ANSWER:B AND E
+
+15.Which statement or statements are TRUE about Amazon EBS volumes and Amazon EFS file systems?
+
+A.EBS volumes store data within a single Availability Zone. Amazon EFS file systems store data across multiple Availability Zones.
+
+B.EBS volumes store data across multiple Availability Zones. Amazon EFS file systems store data within a single Availability Zone.
+
+C.EBS volumes and Amazon EFS file systems both store data within a single Availability Zone.
+
+D.EBS volumes and Amazon EFS file systems both store data across multiple Availability Zones.
+
+ANSWER:A
+
+16.You want to store data in an object storage service. Which AWS service is best for this type of storage?
+
+A.Amazon Managed Blockchain
+
+B.Amazon Elastic File System (Amazon EFS)
+
+C.Amazon Elastic Block Store (Amazon EBS)
+
+D.Amazon Simple Storage Service (Amazon S3)
+
+ANSWER:D
+
+17.Which statement best describes Amazon DynamoDB?
+
+A.A service that enables you to run relational databases in the AWS Cloud
+
+B.A serverless key-value database service
+
+C.A service that you can use to migrate relational databases, nonrelational databases, and other types of data stores
+
+D.An enterprise-class relational database
+
+ANSWER:B
+
+18.Which service is used to query and analyze data across a data warehouse?
+
+A.Amazon Redshift
+
+B.Amazon Neptune
+
+C.Amazon DocumentDB
+
+D.Amazon ElastiCache
+
+ANSWER:A
+
+19.Which statement best describes an IAM policy?
+
+A.An authentication process that provides an extra layer of protection for your AWS account
+
+B.A document that grants or denies permissions to AWS services and resources
+
+C.An identity that you can assume to gain temporary access to permissions
+
+D.The identity that is established when you first create an AWS account
+
+ANSWER:B
+
+20.An employee requires temporary access to create several Amazon S3 buckets. Which option would be the best choice for this task?
+
+A.AWS account root user
+
+B.IAM group
+
+C.IAM role
+
+D.Service control policy (SCP)
+
+ANSWER:C
+
+21.Which statement best describes the principle of least privilege?
+
+A.Adding an IAM user into at least one IAM group
+
+B.Checking a packet’s permissions against an access control list
+
+C.Granting only the permissions that are needed to perform specific tasks
+
+D.Performing a denial of service attack that originates from at least one device
+
+ANSWER:C
+
+22.Which service helps protect your applications against distributed denial-of-service (DDoS) attacks?
+
+A.Amazon GuardDuty
+
+B.Amazon Inspector
+
+C.AWS Artifact
+
+D.AWS Shield
+
+ANSWER:D
+
+23.Which task can AWS Key Management Service (AWS KMS) perform?
+
+A.Configure multi-factor authentication (MFA).
+
+B.Update the AWS account root user password.
+
+C.Create cryptographic keys.
+
+D.Assign permissions to users and groups.
+
+ANSWER:C
+
+24.Which actions can you perform using Amazon CloudWatch? (Select TWO.)
+
+A.Monitor your resources’ utilization and performance
+
+B.Receive real-time guidance for improving your AWS environment
+
+C.Compare your infrastructure to AWS best practices in five categories
+
+D.Access metrics from a single dashboard
+
+E.Automatically detect unusual account activity
+
+ANSWER:A AND D
+
+25.Which service enables you to review the security of your Amazon S3 buckets by checking for open access permissions?
+
+A.Amazon CloudWatch
+
+B.AWS CloudTrail
+
+C.AWS Trusted Advisor
+
+D.Amazon GuardDuty
+
+ANSWER:C
+
+26.Which categories are included in the AWS Trusted Advisor dashboard? (Select TWO.)
+
+A.Reliability
+
+B.Performance
+
+C.Scalability
+
+D.Elasticity
+
+E.Fault tolerance
+
+ANSWER:B AND E
+
+27.Which action can you perform with consolidated billing?
+
+A.Review how much cost your predicted AWS usage will incur by the end of the month.
+
+B.Create an estimate for the cost of your use cases on AWS.
+
+C.Combine usage across accounts to receive volume pricing discounts.
+
+D.Visualize and manage your AWS costs and usage over time.
+
+ANSWER:C
+
+28.Which pricing tool is used to visualize, understand, and manage your AWS costs and usage over time?
+
+A.AWS Pricing Calculator
+
+B.AWS Budgets
+
+C.AWS Cost Explorer
+
+D.AWS Free Tier
+
+ANSWER:C
+
+29.Which pricing tool enables you to receive alerts when your service usage exceeds a threshold that you have defined?
+
+A.Billing dashboard in the AWS Management Console
+
+B.AWS Budgets
+
+C.AWS Free Tier
+
+D.AWS Cost Explorer
+
+ANSWER:B
+
+30.Your company wants to receive support from an AWS Technical Account Manager (TAM). Which support plan should you choose?
+
+A.Developer
+
+B.Enterprise
+
+C.Basic
+
+D.Business
+
+ANSWER:B
+
+31.Which service or resource is used to find third-party software that runs on AWS?
+
+A.AWS Marketplace
+
+B.AWS Free Tier
+
+C.AWS Support
+
+D.Billing dashboard in the AWS Management Console
+
+ANSWER:A
+
+32.What is the storage capacity of AWS Snowmobile?
+
+A.40 PB
+
+B.60 PB
+
+C.80 PB
+
+D.100 PB
+
+ANSWER:D
+
+33.Which pillar of the AWS Well-Architected Framework includes the ability to run workloads effectively and gain insights into their operations?
+
+A.Cost Optimization
+
+B.Operational Excellence
+
+C.Performance Efficiency
+
+D.Reliability
+
+ANSWER:B
+
+34.What are the benefits of cloud computing? (Select TWO.)
+
+A.Increase speed and agility.
+
+B.Benefit from smaller economies of scale.
+
+C.Trade variable expense for upfront expense.
+
+D.Maintain infrastructure capacity.
+
+E.Stop spending money running and maintaining data centers.
+
+ANSWER: A AND E
+
+35.Which service enables you to review details for user activities and API calls that have occurred within your AWS environment?
+
+
+A.Amazon CloudWatch
+
+B.AWS CloudTrail
+
+C.AWS Trusted Advisor
+
+D.Amazon Inspector
+
+ANSWER:B
